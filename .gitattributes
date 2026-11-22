@@ -1,0 +1,12 @@
+# 默认所有文本用 LF，避免 Windows 提交的 CRLF 污染跨平台脚本
+* text=auto eol=lf
+
+# PowerShell / 批处理在 Windows 上用 CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary
+*.pdf binary
+*.zip binary

@@ -1,0 +1,11 @@
+# 必需：PDF 版面分析与渲染
+pymupdf4llm>=0.0.17
+pymupdf>=1.24
+pdfplumber>=0.11
+pypdfium2>=4.30
+
+# 可选：LLM API 结构化输出时才需要
+# pydantic>=2.0
+
+# 可选：纯扫描件 OCR 时才需要（约 44MB onnxruntime）
+# rapidocr-onnxruntime==1.2.3

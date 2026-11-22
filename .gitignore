@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 运行产物（extract_pages.py 的输出目录）
+extract/
+pages/
+index.jsonl
+manifest.json
+values.txt
+
+# 临时文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 本地配置
+.env
+config.local.*
